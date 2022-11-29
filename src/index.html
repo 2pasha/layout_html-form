@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
 
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" autocomplete="off">
@@ -36,17 +35,18 @@
             name="age" 
             min="1" 
             max="100"
+            value="12"
           >
         </label>
 
         <label class="form-field">
           Full date of birth:
-          <input type="date" name="date-of-birth">
+          <input type="date" name="dateOfBirth">
         </label>
 
         <label class="form-field">
           I accept the term of the agreement
-          <input type="checkbox" name="date-of-birth">
+          <input type="checkbox" name="dateOfBirth">
         </label>
       </fieldset>
 
@@ -75,13 +75,13 @@
 
       <fieldset class="group-field">
         <legend>An interesting fact about you!</legend>
-        <div class="love-cats">
+        <div class="form-field">
             Do you love cats?
 
           <label>
             <input 
               type="radio" 
-              name="cats-love" 
+              name="catsLove" 
               value="yes"
             >
             Yes
@@ -90,7 +90,7 @@
           <label>
             <input 
               type="radio" 
-              name="cats-love" 
+              name="catsLove" 
               value="no"
             >
             No
@@ -98,19 +98,19 @@
         </div>
         
         <label class="form-field">
-          What is your favourite color?
+          What is your favorite color?
           <input type="color" name="color">
         </label>
         
         <label class="form-field">
           What time do you go to bed?
-          <input type="time" name="bed-time">
+          <input type="time" name="bedTime">
         </label>
         
         <label class="form-field">
-          What are you favourite brand of cars?
+          What are you favorite brand of cars?
 
-          <select name="brand-of-cars" multiple>
+          <select name="brandOfCars" multiple>
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
